@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissor</title>
+    </head>
+  <body style="background-color: #F7CAC9;">
+    <div class="container">
+
+      <header>
+        <center><b><font style="font-size: 70px;">Rock Paper Scissor</font></b></center>
+      </header>
+      <br>
+      <br>
+      <div id="inside">
+
+
+        <center><font id="instruction" style="font-size: 40px;">Your Choices:</font></center>
+
+        <div class="choice">
+
+          <div class="select-choice" id="rock">
+            <img class="img-weapon" src="./rock2.jpeg" alt="rock" style="height: 200px; float: left;width:200px; margin-left: 20%;">
+          </div>
+
+          <div class="select-choice" id="paper">
+            <img class="img-weapon" src="./paper.jpeg" alt="paper" style="height: 200px; float: left;margin-left: 5%;">
+          </div>
+
+          <div class="select-choice" id="scissors">
+            <img class="img-weapon" src="./scissor.jpeg" alt="scissors" style="height: 200px;width:200px;margin-left:  5%;">
+          </div>
+
+        </div>
+
+
+        <div class="result">
+          
+          <br>
+          <center><font id="message" style="font-size: 50px;">Select your choice !</font></center>
+          <br>
+          <br>
+          <center>
+            <div class="scores">
+              <font class="total-score" style="font-size: 30px;">Your score: <span id="user-score">0</span></font> &emsp; &emsp;
+              <font class="total-score" style="font-size: 30px;">Computer's score: <span id="computer-score">0</span></font> &emsp; &emsp;  
+              <font class="total-score" style="font-size: 30px;">Draws: <span id="draws">0</span></font>
+              <br><br><br>
+  
+              <button id="reset-button" style="height: 30px; width: 100px; font-size: 20px; color: black; background-color: white; border-radius: 45%;">Reset</button>
+            </div>
+          </center>
+
+        </div>
+
+      </div>
+
+    </div>
+    <script type="text/javascript" src="code.js"></script>
+  </body>
+</html>
